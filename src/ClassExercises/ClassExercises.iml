@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/classroom10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom11" isTestSource="false" packagePrefix="Aula11" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom12" isTestSource="false" packagePrefix="Aula12" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom13" isTestSource="false" packagePrefix="TA13" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom2" isTestSource="false" packagePrefix="Aula2VariaveisEFuncoes.aulas" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom28" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom3" isTestSource="false" packagePrefix="Aula3Scanner.aulas" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom4" isTestSource="false" packagePrefix="Aula4CiclosEVetores" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom6" isTestSource="false" packagePrefix="Aula6Objectos.Aulas" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom7" isTestSource="false" packagePrefix="Aula7HerancaPolimorfismo" />
+      <sourceFolder url="file://$MODULE_DIR$/classroom8" isTestSource="false" packagePrefix="Aula8ClasseAbstrata" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
