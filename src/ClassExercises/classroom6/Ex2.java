@@ -1,4 +1,4 @@
-package Aula6Objectos.Aulas;
+package ClassExercises.classroom6;
 
 public class Ex2 {
         public static class Person {
@@ -65,7 +65,7 @@ public class Ex2 {
 
             }
             public static void main(String[] args) {
-                Ex1.Person p1 = new Ex1.Person("Maria", "Silva", 60) ;
+                Aula6Objectos.Aulas.Ex1.Person p1 = new Aula6Objectos.Aulas.Ex1.Person("Maria", "Silva", 60) ;
 
                 System.out.println(p1);
             }

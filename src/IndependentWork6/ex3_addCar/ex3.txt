@@ -1,5 +1,5 @@
 3. Implemente a classe Car. Um carro possui algumas propriedades e caraterísticas que variam de modelo para modelo,
-tais como a marca, o modelo, o número de lugares, a matrícula, o mês e ano de registo, o consumo em 100 km, etc.
+tais como a marca, o modelo, o número de lugares, a matrícula, o mês e ano de registo, o consumption em 100 km, etc.
 Certos atributos devem ser indicados aquando a criação do carro.
 
 Deve criar os testes que achar necessário para testar as funções desenvolvidas.
