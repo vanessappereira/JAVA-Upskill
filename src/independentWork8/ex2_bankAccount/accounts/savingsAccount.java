@@ -1,5 +1,7 @@
 package independentWork8.ex2_bankAccount.accounts;
 
+import java.util.Scanner;
+
 public class savingsAccount extends bankAccount {
     private int nTransactions;
     private double taxRate;
@@ -10,8 +12,20 @@ public class savingsAccount extends bankAccount {
         this.taxRate = taxRate;
     }
 
-    public static void newAccount(String accountNumber, double balance, String currency) {
+    public static void newAccount() {
+        Scanner a = new Scanner(System.in);
+        System.out.println("Please add your account number:");
+        String accountNumber = a.next();
 
+        System.out.println("Provide your current balance: ");
+        double balance = a.nextDouble();
+
+        System.out.println("Your bank currency: ");
+        String currency = a.next();
+
+        savingsAccount.newAccount();
+        bankAccount.setPassword();
+        System.out.println("Thank you, your initial password is: " + bankAccount.setPassword());
     }
 
     private double income() {

@@ -19,39 +19,14 @@ public abstract class bankAccount {
     public static void newAccount() {
         Scanner a = new Scanner(System.in);
         System.out.println("Creating an Account:\nWhich account you would like to add?\nOption 1: Draft Account\nOption 2: Savings Account");
-        int option = Integer.parseInt(a.next());
-        String accountNumber;
-        double balance;
-        String currency;
-        if (option==1) {
-                System.out.println("Please add your account number:");
-                accountNumber = a.next();
-
-                System.out.println("Provide your current balance: ");
-                balance = a.nextDouble();
-
-                System.out.println("Your bank currency: ");
-                currency = a.next();
-
-                draftAccount.newAccount(accountNumber,balance,currency);
-
-                System.out.println("Thank you, your initial password is: " + password);
-            }
-        if (option==2){
-                System.out.println("Please add your account number:");
-                accountNumber = a.next();
-
-                System.out.println("Provide your current balance: ");
-                balance = a.nextDouble();
-
-                System.out.println("Your bank currency: ");
-                currency = a.next();
-
-                savingsAccount.newAccount(accountNumber,balance,currency);
-
-                System.out.println("Thank you, your initial password is: " + password);
-            }
+        int option = a.nextInt();
+        if (option == 1) {
+            draftAccount.newAccount();
         }
+        if (option == 2) {
+            savingsAccount.newAccount();
+        }
+    }
 
     //exercise 2_b
     public abstract void withdraw(double value);
@@ -109,8 +84,8 @@ public abstract class bankAccount {
         bankAccount.accounts = accounts;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public static String setPassword() {
+        return "Password";
     }
 
     public void setCurrency(String currency) {
