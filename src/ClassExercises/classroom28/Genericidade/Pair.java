@@ -1,4 +1,4 @@
-package Genericidade;
+package ClassExercises.classroom28.Genericidade;
 
 public class Pair<K, V> {
     private K key;

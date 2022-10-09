@@ -1,4 +1,4 @@
-package Genericidade;
+package ClassExercises.classroom28.Genericidade;
 
 public class Ex2 {
     public static void main(String[] args) {

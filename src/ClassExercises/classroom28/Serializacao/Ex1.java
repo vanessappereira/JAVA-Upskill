@@ -1,4 +1,4 @@
-package Serializacao;
+package ClassExercises.classroom28.Serializacao;
 
 import java.io.*;
 import java.util.Scanner;

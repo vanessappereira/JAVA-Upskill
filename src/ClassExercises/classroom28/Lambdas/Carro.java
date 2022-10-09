@@ -1,4 +1,4 @@
-package Lambdas;
+package ClassExercises.classroom28.Lambdas;
 
 public class Carro {
     private String matricula;
