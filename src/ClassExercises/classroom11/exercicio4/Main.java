@@ -1,4 +1,4 @@
-package Aula11.exercicio4;
+package ClassExercises.classroom11.exercicio4;
 
 import java.util.Arrays;
 

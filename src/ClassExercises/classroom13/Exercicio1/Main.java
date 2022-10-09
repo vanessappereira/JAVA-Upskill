@@ -1,4 +1,4 @@
-package Aula13.Exercicio1;
+package ClassExercises.classroom13.Exercicio1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         List<pessoa> pessoas = new ArrayList<pessoa>();
         try {
-            Scanner s = new Scanner(new File("Aula13/Exercicio1/pessoas.txt"));
+            Scanner s = new Scanner(new File("pessoas.txt"));
             while (s.hasNextLine()){
                 String line = s.nextLine();
                 //Joao;23;Lisboa -> ["Joao", 23, "Lisboa"]

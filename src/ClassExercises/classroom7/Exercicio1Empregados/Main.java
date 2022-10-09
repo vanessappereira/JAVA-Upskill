@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio1Empregados;
+package ClassExercises.classroom7.Exercicio1Empregados;
 
 public class Main {
     public static void main(String[] args) {

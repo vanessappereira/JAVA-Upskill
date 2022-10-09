@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio2Ingressos;
+package ClassExercises.classroom7.Exercicio2Ingressos;
 
 public class Ingresso extends Object{
     private int valor;

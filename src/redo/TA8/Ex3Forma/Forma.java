@@ -1,4 +1,4 @@
-package Aula8ClasseAbstrata.TA8.Ex3Forma;
+package redo.TA8.Ex3Forma;
 
 public abstract class Forma {
     private Position position;

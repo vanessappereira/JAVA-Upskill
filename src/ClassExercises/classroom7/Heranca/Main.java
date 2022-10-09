@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Heranca;
+package ClassExercises.classroom7.Heranca;
 
 public class Main {
     public static void main(String[] args) {

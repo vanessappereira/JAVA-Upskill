@@ -1,4 +1,4 @@
-package Aula12.Exercicio1;
+package ClassExercises.classroom12.Exercicio1;
 
 public class contacto {
     private String nome;

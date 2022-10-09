@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio1Empregados;
+package ClassExercises.classroom7.Exercicio1Empregados;
 /*
 Gerente de loja: valor fixo igual ao dos empregados sem especialização, acrescido
 de um prémio de 200€ que é atribuído sempre que a loja cumpre os objectivos

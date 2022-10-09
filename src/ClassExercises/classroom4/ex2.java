@@ -1,4 +1,4 @@
-package Aula4CiclosEVetores;
+package ClassExercises.classroom4;
 public class ex2 {
     public static void main(String[] args) {
         int[]vetor =new int[5];

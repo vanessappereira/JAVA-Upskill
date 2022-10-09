@@ -1,6 +1,7 @@
-package TA6.Exercicio4;
+package ClassExercises.classroom10.ContasBanco;
 
-public class creditCard {
+public class CreditCard {
+
     private String titular;
     private final long numeroCard;
     private int mes, ano;
@@ -9,7 +10,8 @@ public class creditCard {
     private final int capacidadeHistorico = 5;
     private String[] historico = new String[capacidadeHistorico];
 
-    public creditCard(String titular, long numeroCard, int mes, int ano, double maxDebit) {
+    public CreditCard(String titular, long numeroCard,
+                      int mes, int ano, double maxDebit) {
         this.titular = titular;
         this.numeroCard = numeroCard;
         this.mes = mes;
@@ -21,38 +23,41 @@ public class creditCard {
         return maxDebit - gastoAtual;
     }
 
-    public void pagarCredito(int pag){
+    public void pagarCredito(int pag) {
         this.gastoAtual -= pag;
     }
-    public void gastar(int quantia, String descr){
-       if(this.gastoAtual + quantia <= maxDebit){
-           this.gastoAtual+= quantia;
-           adicionarExtrato(quantia + "Eur - " + descr);
-       }else {
-           System.out.println("Excedeu a quantia");
-       }
+
+    public void gastar(int quantia, String descr) {
+        if (this.gastoAtual + quantia <= maxDebit) {
+            this.gastoAtual += quantia;
+            adicionarExtrato(quantia + "Eur - " + descr);
+        } else {
+            System.out.println("Excedeu saldo");
+        }
     }
 
     private void adicionarExtrato(String s) {
-        for (int i = historico.length-1; i > 0 ;i--) {
-            historico[i] = historico[i-1];
+        for (int i = historico.length - 1; i > 0; i--) {
+            historico[i] = historico[i - 1];
         }
-        historico[0]=s;
+        historico[0] = s;
     }
-    public String obterTalao(){
+
+    public String obterTalao() {
         return historico[0];
     }
-    public String getMovimentos(){
+
+    public String getMovimentos() {
         String movimentos = "";
 
         for (int i = 0; i < historico.length; i++) {
-            movimentos += " " + i + "º: " + historico[i];
+            movimentos += " " + i +"º: " + historico[i];
         }
         return movimentos;
     }
 
     public static void main(String[] args) {
-        creditCard card = new creditCard("Joao", 123456789012L,
+        CreditCard card = new CreditCard("Joao", 123456789012L,
                 05, 2022, 1000);
         card.gastar(20, "Jogo de Futebol");
         card.gastar(15, "Almoçarada");

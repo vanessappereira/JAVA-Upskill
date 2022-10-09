@@ -1,4 +1,4 @@
-package Aula10Trabalhos.Geometria;
+package ClassExercises.classroom10.Geometria;
 public class Main {
 
     public static void main(String[] args) {

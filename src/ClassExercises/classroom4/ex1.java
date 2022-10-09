@@ -1,4 +1,4 @@
-package Aula4CiclosEVetores;
+package ClassExercises.classroom4;
 //while
 public class ex1 {
     public static void main(String[] args) {

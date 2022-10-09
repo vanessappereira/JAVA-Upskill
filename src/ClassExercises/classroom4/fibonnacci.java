@@ -1,4 +1,4 @@
-package Aula4CiclosEVetores.aulas;
+package ClassExercises.classroom4;
 /*
 e Fibonnaci é dada por:
 F(0) = 0

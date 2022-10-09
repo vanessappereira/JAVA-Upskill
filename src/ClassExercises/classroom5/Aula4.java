@@ -1,3 +1,5 @@
+package ClassExercises.classroom5;
+
 public class Aula4 {
 
     public static void somaWhile(){
@@ -109,5 +111,4 @@ public class Aula4 {
         }
         return novo;
     }
-
 }

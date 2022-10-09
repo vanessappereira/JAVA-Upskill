@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio2Ingressos;
+package ClassExercises.classroom7.Exercicio2Ingressos;
 /*
 classe
 CamaroteSuperior, que é mais cara (possui valor adicional). Esta última possui

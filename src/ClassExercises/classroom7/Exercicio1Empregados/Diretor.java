@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio1Empregados;
+package ClassExercises.classroom7.Exercicio1Empregados;
 /*
 Diretor regional: valor fixo igual ao dobro do dos empregados sem especialização,
 acrescido de um prémio que corresponde a 1% do lucro mensal nas lojas da

@@ -1,4 +1,4 @@
-package Aula2VariaveisEFuncoes.aulas;
+package ClassExercises.classroom2;
 //converter celsius em Fahrenheit
 public class exercicio3 {
 

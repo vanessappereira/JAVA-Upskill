@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio1Empregados;
+package ClassExercises.classroom7.Exercicio1Empregados;
 /*
 Empregados: valor fixo de 800€;
  */

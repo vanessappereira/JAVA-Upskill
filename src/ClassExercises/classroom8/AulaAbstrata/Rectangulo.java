@@ -1,4 +1,4 @@
-package Aula8ClasseAbstrata.AulaAbstrata;
+package ClassExercises.classroom8.AulaAbstrata;
 
 public class Rectangulo extends Forma{
         private double lado;

@@ -1,6 +1,5 @@
-package Aula12.Exercicio3;
+package ClassExercises.classroom12.Exercicio3;
 
-import java.util.HashMap;
 import java.util.PriorityQueue;
 
 public class main {

@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio2Ingressos;
+package ClassExercises.classroom7.Exercicio2Ingressos;
 /*
 Crie uma classe CamaroteInferior (que possui a localização do ingresso e
 métodos para obter e imprimir esta localização)

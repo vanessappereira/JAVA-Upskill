@@ -1,4 +1,4 @@
-package Aula8ClasseAbstrata.Exercicio1;
+package ClassExercises.classroom8.Exercicio1;
 
 public class Vendedor extends Employee{
 

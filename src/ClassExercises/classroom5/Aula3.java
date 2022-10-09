@@ -1,7 +1,9 @@
+package ClassExercises.classroom5;
+
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Aula3Ex {
+public class Aula3 {
 
     public static int idade(int ano){
         int currentYear = LocalDate.now().getYear();

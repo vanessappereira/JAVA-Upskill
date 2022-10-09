@@ -1,4 +1,4 @@
-package Aula3Scanner.aulas;
+package ClassExercises.classroom3;
 
 public class ex3 {
     public static void printnumber  (int numb){

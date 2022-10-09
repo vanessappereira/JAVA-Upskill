@@ -1,4 +1,4 @@
-package Aula7HerancaPolimorfismo.Exercicio3Jogadores;
+package ClassExercises.classroom7.Exercicio3Jogadores;
 
 public class GuardaRedes extends Jogador{
     private int GolosSofridos;

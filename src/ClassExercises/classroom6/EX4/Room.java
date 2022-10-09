@@ -1,4 +1,4 @@
-package Aula6Objectos.Aulas.EX4;
+package ClassExercises.classroom6.EX4;
 
 public class Room {
     private int capacidade, numSala;

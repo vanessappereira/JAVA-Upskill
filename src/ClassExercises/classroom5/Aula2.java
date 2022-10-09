@@ -1,3 +1,5 @@
+package ClassExercises.classroom5;
+
 public class Aula2 {
 
     public static int soma(int a, int b){

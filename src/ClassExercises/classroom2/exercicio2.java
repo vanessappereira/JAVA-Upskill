@@ -1,4 +1,4 @@
-package Aula2VariaveisEFuncoes.aulas;
+package ClassExercises.classroom2;
 
 //Função que retorne a area de um circulo com raio r expressão Math.PI area=Pir2
 public class exercicio2 {

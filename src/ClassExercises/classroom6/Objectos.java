@@ -1,4 +1,4 @@
-package Aula6Objectos.Aulas;
+package ClassExercises.classroom6;
 
 public class Objectos {
 

@@ -1,7 +1,4 @@
-package TA11.Ex4;
-
-import java.util.ArrayList;
-import java.util.List;
+package ClassExercises.classroom11.Ex4;
 
 public class cartas {
     private final Rank rank;

@@ -1,4 +1,4 @@
-package Aula10Trabalhos.ContasBanco;
+package ClassExercises.classroom10.ContasBanco;
 
 import java.util.Scanner;
 

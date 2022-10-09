@@ -1,4 +1,4 @@
-package TA11.Ex3;
+package ClassExercises.classroom11.Ex3;
 
 public enum weekDay {
     Monday(2), Tuesday(3), Wednesday(4), Thursday(5),

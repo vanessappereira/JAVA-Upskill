@@ -1,4 +1,4 @@
-package Aula8ClasseAbstrata.Exercicio2;
+package ClassExercises.classroom8.Exercicio2;
 
 public class Main {
     public static void main(String[] args) {

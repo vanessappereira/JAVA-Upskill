@@ -1,4 +1,4 @@
-package Aula11.enumerado;
+package ClassExercises.classroom11.enumerado;
 
 public class Main {
 

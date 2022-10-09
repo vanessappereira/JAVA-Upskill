@@ -1,4 +1,4 @@
-package Aula2VariaveisEFuncoes.aulas;
+package ClassExercises.classroom2;
 
 public class exercicio1 {
 //multiplicar os dois primeiros numeros e somar o terceiro

@@ -1,4 +1,4 @@
-package Aula12.Exercicio3;
+package ClassExercises.classroom12.Exercicio3;
 
 public class senha implements Comparable<senha> {
     private int senha;
