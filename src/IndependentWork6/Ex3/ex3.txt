@@ -1,0 +1,15 @@
+3. Implemente a classe Car. Um carro possui algumas propriedades e caraterísticas que variam de modelo para modelo,
+tais como a marca, o modelo, o número de lugares, a matrícula, o mês e ano de registo, o consumo em 100 km, etc.
+Certos atributos devem ser indicados aquando a criação do carro.
+
+Deve criar os testes que achar necessário para testar as funções desenvolvidas.
+a. Desenvolva os getters e os ‘setters’ dos atributos que lhe pareçam adequados.
+b. O carro possui um depósito de gasolina, com uma capacidade atual e uma capacidade máxima.
+    Implemente a função encherDeposito() que simula o abastecimento.
+c. A função run() deve simular o percurso feito pelo automóvel em 1 km.
+    O combustível associado a este percurso deve ser descontado na capacidade atual do tanque.
+d. Deve ser possível determinar se o carro se encontra em funcionamento. Implemente a função isLigado() e outras que
+    considera necessárias.
+e. O automóvel possui um proprietário, representado pela classe Person (desenvolvida na aula).
+    Crie as funções e atributos necessários que permitem o registo do proprietário à viatura.
+f. Implemente a função toString() que deve devolver a informação que achar adequada.
