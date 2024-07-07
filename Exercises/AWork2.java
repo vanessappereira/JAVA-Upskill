@@ -1,4 +1,6 @@
-public class AWork1 {
+package Exercises;
+
+public class AWork2 {
     public static String sum(int a, int b) {
         int result = a + b;
         return "The result between " + a + " and " + b + " is: " + result;
@@ -23,7 +25,7 @@ public class AWork1 {
     }
 
     // 5. Rectangle Area
-    public static String rectanglArea(int a, int b) {
+    public static String rectangleArea(int a, int b) {
         int result = a * b;
         return "The area of the rectangle with " + a + " and " + b + " is: " + result;
     }

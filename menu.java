@@ -1,3 +1,6 @@
+import Exercises.AWork2;
+import Exercises.AWork3;
+
 public class menu {
     public static void main(String[] args) {
         int a = 232;
@@ -5,21 +8,27 @@ public class menu {
         int c = 823;
         double d = 2.34346554634523421;
 
-        System.out.print("Autonomous Work 1 \n");
-        System.out.println("Ex1: " + AWork1.sum(a, b) + "\n");
-        System.out.println("Ex2: " + AWork1.square(a) + "\n");
-        System.out.println("Ex3: " + AWork1.diff(a, b) + "\n");
-        System.out.println("Ex4: " + AWork1.avg(a, b) + "\n");
-        System.out.println("Ex5: " + AWork1.rectanglArea(a, b) + "\n");
-        System.out.println("Ex6: " + AWork1.Fahrenheit(b) + "\n");
-        System.out.println("Ex7: " + AWork1.Kelvin(a) + "\n");
-        System.out.println("Ex8: " + AWork1.pol(b) + "\n");
-        System.out.println("Ex9: " + AWork1.iva(a) + "\n");
-        System.out.println("Ex10: " + AWork1.nearestValue(a) + "\n");
-        System.out.println("Ex11: " + AWork1.circleP(b) + "\n");
-        System.out.println("Ex12: " + AWork1.areaPrism(a,b,c) + "\n");
-        System.out.println("Ex13: " + AWork1.roundNumber(d) + "\n");
-        System.out.println("Ex14: " + AWork1.roundNumber2(d) + "\n");
+         System.out.print("Autonomous Work 2 \n");
+         System.out.println("Ex1: " + AWork2.sum(a, b) + "\n");
+         System.out.println("Ex2: " + AWork2.square(a) + "\n");
+         System.out.println("Ex3: " + AWork2.diff(a, b) + "\n");
+         System.out.println("Ex4: " + AWork2.avg(a, b) + "\n");
+         System.out.println("Ex5: " + AWork2.rectangleArea(a, b) + "\n");
+         System.out.println("Ex6: " + AWork2.Fahrenheit(b) + "\n");
+         System.out.println("Ex7: " + AWork2.Kelvin(a) + "\n");
+         System.out.println("Ex8: " + AWork2.pol(b) + "\n");
+         System.out.println("Ex9: " + AWork2.iva(a) + "\n");
+         System.out.println("Ex10: " + AWork2.nearestValue(a) + "\n");
+         System.out.println("Ex11: " + AWork2.circleP(b) + "\n");
+         System.out.println("Ex12: " + AWork2.areaPrism(a,b,c) + "\n");
+         System.out.println("Ex13: " + AWork2.roundNumber(d) + "\n");
+         System.out.println("Ex14: " + AWork2.roundNumber2(d) + "\n");
+
+         System.out.print("Autonomous Work 3 \n");
+         System.out.println("Ex1: " + AWork3.returnAge() + "\n");
+         System.out.println("Ex2: " + AWork3.division() + "\n");
+         System.out.println("Ex3: " + AWork3.isEven(b) + "\n");
+         
 
     }
 }
