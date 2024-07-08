@@ -30,6 +30,15 @@ public class menu {
         System.out.println("Ex3: " + AWork3.isEven(b) + "\n");
         System.out.println("Ex4: " + AWork3.isPositive(b) + "\n");
         System.out.println("Ex5: " + AWork3.printContent() + "\n");
+        System.out.println("Ex6: " + AWork3.numberOfWheels() + "\n");
+        System.out.println("Ex7: " + AWork3.getGrade() + "\n");
+        System.out.println("Ex8: " + AWork3.getMonth(3) + "\n");
+        System.out.println("Ex9: " + AWork3.whichSignAreYou() + "\n");
+        System.out.println("Ex7: " + AWork3.orderNumbers() + "\n");
+
+
+
+
 
          
 
