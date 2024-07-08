@@ -93,5 +93,18 @@ public class AWork3 {
         bool = false;
         return "The number " + numb + " is positive?" + bool;
     }
+    
+    // 5. Return content written
+    public static String printContent{
+        Scanner keyboard = new Scanner.(System.in)
 
+        while(true){
+            System.out.print("Please write you content: ")
+            String content = keyboard.nextLine();
+
+            keyboard.close();
+
+            return content;
+        }
+    }
 }
