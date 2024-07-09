@@ -34,7 +34,7 @@ public class menu {
         System.out.println("Ex7: " + AWork3.getGrade() + "\n");
         System.out.println("Ex8: " + AWork3.getMonth(3) + "\n");
         System.out.println("Ex9: " + AWork3.whichSignAreYou() + "\n");
-        System.out.println("Ex7: " + AWork3.orderNumbers() + "\n");
+        System.out.println("Ex10: " + AWork3.orderNumbers() + "\n");
 
 
 
