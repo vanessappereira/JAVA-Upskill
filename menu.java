@@ -1,12 +1,13 @@
 import Exercises.AWork2;
 import Exercises.AWork3;
+import Exercises.AWork4;
 
 public class menu {
     public static void main(String[] args) {
-        int a = 232;
-        int b = 368;
-        int c = 823;
-        double d = 2.34346554634523421;
+        int a = 13;
+        int b = 36;
+        int c = 82;
+        double d = 2.343465546; 
 
         System.out.print("Autonomous Work 2 \n");
         System.out.println("Ex1: " + AWork2.sum(a, b) + "\n");
@@ -20,7 +21,7 @@ public class menu {
         System.out.println("Ex9: " + AWork2.iva(a) + "\n");
         System.out.println("Ex10: " + AWork2.nearestValue(a) + "\n");
         System.out.println("Ex11: " + AWork2.circleP(b) + "\n");
-        System.out.println("Ex12: " + AWork2.areaPrism(a,b,c) + "\n");
+        System.out.println("Ex12: " + AWork2.areaPrism(a, b, c) + "\n");
         System.out.println("Ex13: " + AWork2.roundNumber(d) + "\n");
         System.out.println("Ex14: " + AWork2.roundNumber2(d) + "\n");
 
@@ -36,11 +37,21 @@ public class menu {
         System.out.println("Ex9: " + AWork3.whichSignAreYou() + "\n");
         System.out.println("Ex10: " + AWork3.orderNumbers() + "\n");
 
+        System.out.print("Autonomous Work 4 \n");
+        System.out.println("Ex1: " + AWork4.sumWhile() + "\n");
+        System.out.println("Ex2: " + AWork4.sumFor() + "\n");
+        System.out.println("Ex3: " + AWork4.sumDivisors() + "\n");
+        System.out.println("Ex4: " + AWork4.sumDivisors() + "\n");
+        System.out.println("Ex5: " + AWork4.isPrime() + "\n");
+        System.out.println("Ex6: " + AWork4.intervalPrime(a, b) + "\n");
+        System.out.println("Ex7: " + AWork4.vectorNatural(c) + "\n");
+        System.out.println("Ex8: " + AWork4.vectorRandom(a) + "\n");
+        System.out.println("Ex9: " + AWork4.vectorIntegers() + "\n");
+        System.out.println("Ex10: " + AWork4.duplicate(null, a) + "\n");
+        System.out.println("Ex11: " + AWork4.countOccurrences() + "\n");
+        System.out.println("Ex12: " + AWork4.subarray() + "\n");
 
 
-
-
-         
 
     }
 }
