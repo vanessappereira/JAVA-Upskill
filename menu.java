@@ -1,13 +1,16 @@
+import java.util.Arrays;
+
 import Exercises.AWork2;
 import Exercises.AWork3;
 import Exercises.AWork4;
+import Exercises.AWork5;
 
 public class menu {
     public static void main(String[] args) {
         int a = 13;
         int b = 36;
         int c = 82;
-        double d = 2.343465546; 
+        double d = 2.343465546;
 
         System.out.print("Autonomous Work 2 \n");
         System.out.println("Ex1: " + AWork2.sum(a, b) + "\n");
@@ -51,7 +54,21 @@ public class menu {
         System.out.println("Ex11: " + AWork4.countOccurrences() + "\n");
         System.out.println("Ex12: " + AWork4.subarray() + "\n");
 
+        System.out.print("Autonomous Work 5 \n");
+        System.out.println("Ex1: " + AWork5.firstHalf(null, false) + "\n");
+        System.out.println("Ex2: " + AWork5.merge(null, null) + "\n");
+        System.out.println("Ex3: " + AWork5.invert(null) + "\n");
+        System.out.println("Ex4: " + AWork5.duplicateEveryElement(null) + "\n");
+        System.out.println("Ex5: " + AWork5.duplicateInverted(null) + "\n");
+        System.out.println("Ex6: " + AWork5.copyWithoutMiddleElement(null) + "\n");
+        System.out.println("Ex7: " + AWork5.fibonacciSequence(a) + "\n");
+
+
+
+
+
 
 
     }
+
 }
