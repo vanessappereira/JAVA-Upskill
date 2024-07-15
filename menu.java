@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 import Exercises.AWork2;
 import Exercises.AWork3;
 import Exercises.AWork4;
