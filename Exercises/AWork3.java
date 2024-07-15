@@ -133,8 +133,8 @@ public class AWork3 {
         return result;
     }
 
-    // 7. Return grades A+ (90-100); A (80 - 90); B (70 - 80); C (50 -70); D (30 -
-    // 50); E (0 - 30); If its out of scale, should return "Invalid Grade"
+    // 7. Return grades A+ (90-100); A (80 - 90); B (70 - 80); C (50 -70); D (30 - 50); E (0 - 30); 
+    // If its out of scale, should return "Invalid Grade"
     public static String getGrade() {
         String result;
         Scanner keyboard = new Scanner(System.in);
