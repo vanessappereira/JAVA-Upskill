@@ -1,8 +1,3 @@
-import Exercises.AWork2;
-import Exercises.AWork3;
-import Exercises.AWork4;
-import Exercises.AWork5;
-
 public class menu {
     public static void main(String[] args) {
         int a = 13;
@@ -60,12 +55,6 @@ public class menu {
         System.out.println("Ex5: " + AWork5.duplicateInverted(null) + "\n");
         System.out.println("Ex6: " + AWork5.copyWithoutMiddleElement(null) + "\n");
         System.out.println("Ex7: " + AWork5.fibonacciSequence(a) + "\n");
-
-
-
-
-
-
 
     }
 

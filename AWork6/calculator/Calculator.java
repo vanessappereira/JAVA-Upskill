@@ -1,4 +1,4 @@
-package Exercises.AWork6.calculator;
+package AWork6.calculator;
 
 public class Calculator {
     private String[] history;

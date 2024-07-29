@@ -1,4 +1,3 @@
-package Exercises;
 
 public class AWork2 {
     public static String sum(int a, int b) {

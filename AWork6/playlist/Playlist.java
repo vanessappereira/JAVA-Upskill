@@ -1,14 +1,12 @@
-package Exercises.AWork6.playlist;
+package AWork6.playlist;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Playlist {
-    private String name;
     private List<Song> songs;
 
     public Playlist(String name) {
-        this.name = name;
         this.songs = new ArrayList<>();
     }
 

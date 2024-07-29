@@ -1,4 +1,3 @@
-package Exercises;
 
 import java.util.Scanner;
 
@@ -164,16 +163,16 @@ public class AWork4 {
 		int a, b;
 		char[] v;
 		Scanner keyboard = new Scanner(System.in);
-		
+
 		System.out.println("Enter a vector of characters: ");
 		v = keyboard.next().toCharArray();
-		
+
 		System.out.println("Enter the first index: ");
 		a = keyboard.nextInt();
-		
+
 		System.out.println("Enter the last index: ");
 		b = keyboard.nextInt();
-		
+
 		keyboard.close();
 		char[] newChar = new char[b - a + 1];
 

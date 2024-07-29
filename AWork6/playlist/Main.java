@@ -1,4 +1,4 @@
-package Exercises.AWork6.playlist;
+package AWork6.playlist;
 
 public class Main {
     public static void main(String[] args) {

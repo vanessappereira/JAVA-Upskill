@@ -1,4 +1,4 @@
-package Exercises.AWork6.playlist;
+package AWork6.playlist;
 
 import java.util.Objects;
 
