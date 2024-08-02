@@ -2,9 +2,11 @@ package AWork6.carInfo;
 
 public class Car {
 
-    private String licensePlate, brand, model;
-    private int registryYear, registryMonth, carSeats, doors;
-    private double consuption, avgConsuption, atualCapacity, maxCapacity;
+    private final String brand, model, licensePlate;
+    private double consuption = 0;
+    private double avgConsuption = 0;
+    private double atualCapacity;
+    private final double maxCapacity;
     private boolean isOn = false;
 
     public Car(String brand, String model, String licensePlate, int carSeats, int registryMonth, int registryYear,
@@ -12,12 +14,8 @@ public class Car {
         this.brand = brand;
         this.model = model;
         this.licensePlate = licensePlate;
-        this.carSeats = carSeats;
-        this.registryMonth = registryMonth;
-        this.registryYear = registryYear;
         this.atualCapacity = atualCapacity;
         this.maxCapacity = maxCapacity;
-
     }
 
     // Getters and setters
@@ -26,7 +24,6 @@ public class Car {
     }
 
     public void setCarSeats(int carSeats) {
-        this.carSeats = carSeats;
     }
 
     public double getConsuption() {
@@ -62,7 +59,7 @@ public class Car {
     public double avgRunConsuption(double distance, double litres) {
         avgConsuption = (distance / litres) * 100;
         atualCapacity -= avgConsuption;
-        System.out.println("The avegrage is: "+ avgConsuption);
+        System.out.println("The avegrage is: " + avgConsuption);
         return avgConsuption;
     }
 
