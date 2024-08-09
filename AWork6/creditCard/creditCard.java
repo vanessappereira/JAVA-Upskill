@@ -1,8 +1,11 @@
 package AWork6.creditCard;
 
 public class creditCard {
+    @SuppressWarnings("unused")
     private final String owner;
+    @SuppressWarnings("unused")
     private final long cardNumber;
+    @SuppressWarnings("unused")
     private final int expirationMonth, expirationYear;
     private double atualBalance;
     private double creditLimit;
