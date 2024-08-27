@@ -50,8 +50,9 @@ public class Car {
 
             System.out.println("Filled with " + litres + " the current gas is: " + this.atualCapacity);
         } else {
-            System.out.println("Can't fill with " + litres + " litres, the max capacity is: " + maxCapacity + " and you have: "
-                    + atualCapacity);
+            System.out.println(
+                    "Can't fill with " + litres + " litres, the max capacity is: " + maxCapacity + " and you have: "
+                            + atualCapacity);
         }
     }
 
@@ -71,9 +72,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return """
-               Car: 
-               brand:""" + getBrand() + "\n"
+        return "Car: \nBrand:" + getBrand() + "\n"
                 + "model: " + getModel() + "\n"
                 + "licensePlate: " + getLicensePlate() + "\n"
                 + "Is the car turned on? " + isOn;
