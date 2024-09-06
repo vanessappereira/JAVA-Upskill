@@ -1,10 +1,10 @@
-package IndependentWork8.Ex3Forma;
+package AWork8.GeoForms;
 
-public class Rectangulo extends Forma {
+public class Rectangle extends Form {
         private float lado;
         private float altura;
 
-    public Rectangulo(Position position, float lado, float altura ) {
+    public Rectangle(Position position, float lado, float altura ) {
         super(position);
         this.altura=altura;
         this.lado=lado;

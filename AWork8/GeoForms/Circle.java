@@ -1,6 +1,6 @@
 package AWork8.GeoForms;
 
-public class Circle extends Forma {
+public class Circle extends Form {
         private float raio;
 
     public Circle(Position position, float raio) {

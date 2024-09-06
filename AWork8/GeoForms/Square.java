@@ -1,9 +1,9 @@
-package IndependentWork8.Ex3Forma;
+package AWork8.GeoForms;
 
-public class Quadrado extends Rectangulo {
+public class Square extends Rectangle {
 
 
-    public Quadrado(Position position, float lado) {
+    public Square(Position position, float lado) {
 
 
         super(position, lado, lado);
