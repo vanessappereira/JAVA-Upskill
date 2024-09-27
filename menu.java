@@ -48,7 +48,7 @@ public class menu {
         System.out.println("Ex12: " + AWork4.subarray() + "\n");
 
         System.out.print("Autonomous Work 5 \n");
-        System.out.println("Ex1: " + AWork5.firstHalf(null, false) + "\n");
+        System.out.println("Ex1: " + AWork5.firstHalf(null,false) + "\n");
         System.out.println("Ex2: " + AWork5.merge(null, null) + "\n");
         System.out.println("Ex3: " + AWork5.invert(null) + "\n");
         System.out.println("Ex4: " + AWork5.duplicateEveryElement(null) + "\n");

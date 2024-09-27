@@ -13,9 +13,9 @@ public class Main {
         v[3] = new Rectangle(p,5,4);
         v[4] = new Circle(p,7);
 
-        for (int i=0; i<v.length; i++){
-            System.out.println("Area: " + v[i].calcularArea());
-            System.out.println("Area: " + v[i].calcularPerimetro());
+        for (Form v1 : v) {
+            System.out.println("Area: " + v1.calcularArea());
+            System.out.println("Area: " + v1.calcularPerimetro());
         }
     }
 }

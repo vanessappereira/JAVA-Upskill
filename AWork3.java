@@ -10,37 +10,34 @@ public class AWork3 {
     // 1. Return Age
     public static String returnAge() {
         int month, year;
-        Scanner keyboard = new Scanner(System.in);
-
-        while (true) {
-            try {
-                System.out.print("Enter your birth year: ");
-                year = keyboard.nextInt();
-                if (year <= 0) {
-                    System.out.println("Invalid year");
-                    continue;
-                } else if (year < 1900) {
-                    System.out.print("You're too old for me to count");
-                    continue;
+        Period period;
+        try (Scanner keyboard = new Scanner(System.in)) {
+            while (true) {
+                try {
+                    System.out.print("Enter your birth year: ");
+                    year = keyboard.nextInt();
+                    if (year <= 0) {
+                        System.out.println("Invalid year");
+                        continue;
+                    } else if (year < 1900) {
+                        System.out.print("You're too old for me to count");
+                        continue;
+                    }
+                    System.out.print("Enter your birth month: ");
+                    month = keyboard.nextInt();
+                    if (month <= 0 || month > 12) {
+                        System.out.println("Invalid month");
+                        continue;
+                    }
+                    break;
+                } catch (InputMismatchException e) {
+                    System.out.println("Invalid input. Please enter a valid number." + e);
+                    keyboard.next(); // Clear the input
                 }
-                System.out.print("Enter your birth month: ");
-                month = keyboard.nextInt();
-                if (month <= 0 || month > 12) {
-                    System.out.println("Invalid month");
-                    continue;
-                }
-                break;
-            } catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please enter a valid number." + e);
-                keyboard.next(); // Clear the input
-            }
+            }   LocalDate today = LocalDate.now();
+            LocalDate birthDate = LocalDate.of(year, month, 1);
+            period = Period.between(birthDate, today);
         }
-
-        LocalDate today = LocalDate.now();
-        LocalDate birthDate = LocalDate.of(year, month, 1);
-        Period period = Period.between(birthDate, today);
-
-        keyboard.close();
         return "You are " + period.getYears() + " years old";
     }
 
@@ -111,24 +108,19 @@ public class AWork3 {
     // 6. Return number of wheels of a vehicle
     public static String numberOfWheels() {
         String result;
-        Scanner keyboard = new Scanner(System.in);
-        System.out.print("Please enter the number of wheels: ");
-
-        int numb = keyboard.nextInt();
-        keyboard.close();
-        if (numb == 1) {
-            result = "The vehicle is a monocycle";
-        } else if (numb == 2) {
-            result = "The vehicle is a bicycle";
-        } else if (numb == 3) {
-            result = "The vehicle is a tricycle";
-        } else if (numb == 4) {
-            result = "The vehicle is a car";
-        } else if (numb == 6) {
-            result = "The vehicle is a truck";
-        } else {
-            result = "The vehicle is a bus";
+        int numb;
+        try (Scanner keyboard = new Scanner(System.in)) {
+            System.out.print("Please enter the number of wheels: ");
+            numb = keyboard.nextInt();
         }
+        result = switch (numb) {
+            case 1 -> "The vehicle is a monocycle";
+            case 2 -> "The vehicle is a bicycle";
+            case 3 -> "The vehicle is a tricycle";
+            case 4 -> "The vehicle is a car";
+            case 6 -> "The vehicle is a truck";
+            default -> "The vehicle is a bus";
+        };
         return result;
     }
 
@@ -137,12 +129,11 @@ public class AWork3 {
     // If its out of scale, should return "Invalid Grade"
     public static String getGrade() {
         String result;
-        Scanner keyboard = new Scanner(System.in);
-
-        System.out.print("Please enter your grade: ");
-
-        int grade = keyboard.nextInt();
-        keyboard.close();
+        int grade;
+        try (Scanner keyboard = new Scanner(System.in)) {
+            System.out.print("Please enter your grade: ");
+            grade = keyboard.nextInt();
+        }
 
         if (grade >= 90 && grade <= 100) {
             result = "A+";
@@ -166,46 +157,21 @@ public class AWork3 {
     // 8. Receive an int and return the month. Use switch-case
     public static String getMonth(int month) {
         String result;
-        switch (month) {
-            case 1:
-                result = "The month is January";
-                break;
-            case 2:
-                result = "The month is February";
-                break;
-            case 3:
-                result = "The month is March";
-                break;
-            case 4:
-                result = "The month is April";
-                break;
-            case 5:
-                result = "The month is May";
-                break;
-            case 6:
-                result = "The month is June";
-                break;
-            case 7:
-                result = "The month is July";
-                break;
-            case 8:
-                result = "The month is August";
-                break;
-            case 9:
-                result = "The month is September";
-                break;
-            case 10:
-                result = "The month is October";
-                break;
-            case 11:
-                result = "The month is November";
-                break;
-            case 12:
-                result = "The month is December";
-                break;
-            default:
-                result = "Invalid Month";
-        }
+        result = switch (month) {
+            case 1 -> "The month is January";
+            case 2 -> "The month is February";
+            case 3 -> "The month is March";
+            case 4 -> "The month is April";
+            case 5 -> "The month is May";
+            case 6 -> "The month is June";
+            case 7 -> "The month is July";
+            case 8 -> "The month is August";
+            case 9 -> "The month is September";
+            case 10 -> "The month is October";
+            case 11 -> "The month is November";
+            case 12 -> "The month is December";
+            default -> "Invalid Month";
+        };
         return result;
     }
 
@@ -258,16 +224,14 @@ public class AWork3 {
     // 10. Request 3 numbers to user and order them.
     public static String orderNumbers() {
         int num1, num2, num3;
-        Scanner keyboard = new Scanner(System.in);
-
-        System.out.print("Crescent order \\nEnter the first number: ");
-        num1 = keyboard.nextInt();
-        System.out.print("Enter the second number: ");
-        num2 = keyboard.nextInt();
-        System.out.print("Enter the third number: ");
-        num3 = keyboard.nextInt();
-
-        keyboard.close();
+        try (Scanner keyboard = new Scanner(System.in)) {
+            System.out.print("Crescent order \\nEnter the first number: ");
+            num1 = keyboard.nextInt();
+            System.out.print("Enter the second number: ");
+            num2 = keyboard.nextInt();
+            System.out.print("Enter the third number: ");
+            num3 = keyboard.nextInt();
+        }
 
         int[] numbers = { num1, num2, num3 };
         Arrays.sort(numbers);
